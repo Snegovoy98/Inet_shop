@@ -1,0 +1,111 @@
+
+body {
+text-align:  justify;
+font-family: Arial, Helvetica, sans-serif;
+font-size:   11px;
+}
+
+
+.wrapper
+{
+width:  1200px;
+margin: 0 auto;
+}
+
+.header
+ {
+height:     190px;
+background: #000000;
+}
+
+
+.header li 
+{
+display: inline;
+}
+
+li  a {
+padding:         0px 20px 0px 20px;
+text-decoration: none;
+text-transform:  uppercase;
+font-weight:     bold;
+color:           #FFFFFF;
+}
+
+li a:hover, li .active a {
+background: #898888;
+color:      #FFFFFF;
+}
+
+
+
+.row:after
+ {
+content: "";
+display: block;
+clear:   both;
+}
+
+.col 
+{
+float:      left;
+box-sizing: border-box;
+}
+
+.left_content,.right_content 
+{
+width: 20%;
+}
+
+.main_content
+{
+width: 60%;
+}
+
+.main_content div
+{
+border:     1px solid white; 
+box-sizing: border-box;
+min-height: 50px;
+}
+/*------------------------------------------------
+--------------------product_list------------------
+------------------------------------------------*/
+.product_list_caption
+{
+font-weight:bold;
+}
+
+.product_list_row:hover{
+  
+border: 2px solid #F1F1F2; 	
+}
+
+.product_photo 
+{
+width: 20%;
+}
+
+.product_photo img
+{
+width:200px;
+}
+
+.product_name 
+{
+width: 28%;
+}
+
+.product_comment 
+{
+width: 35%;
+}
+
+.product_price 
+{
+width: 7%;
+}
+.product_edit_delete 
+{
+width: 10%;
+}
